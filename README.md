@@ -3,6 +3,8 @@
 
 → Introduction 
 
+Numériqu'elles est une initiative de IBM et du CORIF (COnseil Recherche, Ingénierie et Formation pour l’égalité et mixité entre les femmes et les hommes), qui vise à faire découvrir et à initier les jeunes filles aux métiers du numérique et de l'informatique, en rencontrant des femmes travaillant dans ces milieux ainsi que des centres de formation dispensant des formations sur le territoire.
+
 ## 👤  Auteur(s) :
 
 -- Brian Mortuaire →
@@ -21,8 +23,7 @@
 
 → Ce projet a débuté le 23/10/2020 en tant que projet de groupe pendant la formation Développeur Web chez PopSchool.
   Il suit le cahier des charges, et la charte graphique fourni par Numériqu'elles.
-  Numériqu'elles est une initiative de IBM et du CORIF (COnseil Recherche Ingénierie Formation pour l'égalité femmes-
-  hommes), qui vise à faire découvrir et à initier les jeunes filles aux métiers du numérique et de l'informatique, en rencontrant des femmes travaillant dans ces milieux ainsi que des centres de formation dispensant des formations sur le territoire.
+  
 
 ## :top:  Progression ?
 
@@ -30,6 +31,6 @@
 
 ## :computer:  Que contient ce projet ?
 
-→ Ce projet est codé en HTML, CSS, JS.
+→ Ce projet est codé en HTML, CSS.
 
 → Methodologie agile scrum.
