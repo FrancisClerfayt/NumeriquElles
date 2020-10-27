@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding:0
+    
+}
+
+body {
+    font-family:  Helvetica Neue ,Arial, Helvetica, sans-serif ;
+    text-align: left;
+}
+p {
+    margin-bottom: 1em;
+}
+.pageAller {
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+}
+/* les décroration de page commence */
+.backgroudImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.imgLeftTop,
+.imgLeftBottom {
+    transform: rotate(90deg);
+    margin-left: -8em; 
+    padding-left: 0;
+    margin-bottom: 26em;
+    margin-top: 15em;
+    
+}
+.imgLeftLong {
+    transform: rotate(90deg);
+    position: absolute;
+    width: 70%;
+    left: -23em;
+    top: 45em;
+    z-index: -2;
+}
+
+.imgRightLong {
+    transform: rotate(-90deg);
+    position: absolute;
+    width: 70%;
+    right: -22em;
+    top: 22em;
+    z-index: -2;
+}
+
+
+.imgRightTop,
+.imgRightBottom {
+    transform: rotate(-90deg);
+    margin-right: -8em;
+    padding-left: 0;
+    margin-bottom: 26em;
+    margin-top: 8em;  
+    z-index: 2;  
+}
+.imgCentreBottom {
+    transform: rotate(180deg);
+    margin-right: 5em;
+    z-index: -2;
+    margin-top: -2em;
+}
+/* les décroration de page fini */
+
+.contenueAller {
+    margin: 3em auto;
+    padding:1em 5em;
+}
+.titreAndImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+.logoH{
+    width: 4em;
+    height: 4em;
+    margin-bottom: 2.5em;
+}
+.titreAndImg > h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #62D3A4;
+    margin-bottom: 2.5em;
+    width:18em ;
+
+}
+.blackFont {
+    font-weight: bold;
+    margin-top: 1.5em;
+}
+.telecharge {
+    margin: 3.5em auto;
+    margin-left: 15em;
+}
+.telecharge > a {
+    background-color: #62D3A4;
+    border-radius: 2em;
+    color: beige;
+    text-align: center;
+    margin: 1.5em auto;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.video {
+    width: 25em;
+    height: 14em;
+    background-color: gray;
+    margin-left: 11em;
+}
