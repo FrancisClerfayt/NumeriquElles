@@ -175,14 +175,18 @@ right: 12px;
 }
 
 .card {
-  background: #DEECF7;
-  border-radius: 2px;
-  display: inline-block;
-  height: 300px;
-  margin: 1rem;
-  position: relative;
-  left: 175px;
-  width: 300px;
+
+      background: #DEECF7;
+      border-radius: 2px;
+      display: inline-block;
+      height: 329px;
+      margin: 1rem;
+      position: relative;
+      left: 175px;
+      width: 300px;
+      /* top: -12px; */
+      bottom: 201px;
+
 }
 
 .card-1 {
