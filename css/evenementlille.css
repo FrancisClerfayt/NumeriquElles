@@ -37,25 +37,22 @@ button {
   color: #eeeeee;
   text-align: center;
   /* font-size: 4px; */
-  padding: 9px;
-  width: 200px;
+  /* padding: 3px; */
+  width: 146px;
   position: relative;
-  left: 463px;
+  left: 646px;
   /* transition: all 0.5s; */
   /* cursor: pointer; */
   margin: 5px;
-  /* -webkit-mask-composite: destination-out; */
+  /* -webkit-mask-composite: destination-out;
 }
-
 .button1{
   left: 417px;
     font-size: 19px;
 }
 .button2 {
 right: 12px;
-
     font-size: 19px;
-
 }
 
 .button3{
