@@ -27,6 +27,8 @@ li a:hover {
 .blue h2 {
   color: #62D3A4;
   text-align: center;
+  margin: auto;
+  padding: 16px;
 }
 
 button {
@@ -44,7 +46,7 @@ button {
   /* transition: all 0.5s; */
   /* cursor: pointer; */
   margin: 5px;
-  /* -webkit-mask-composite: destination-out;
+  /* -webkit-mask-composite: destination-out;*/
 }
 .button1{
   left: 417px;
@@ -59,6 +61,16 @@ right: 12px;
   position: absolute;
   left: 247px;
   top: 344px;
+}
+
+.button4{
+  position: relative;
+  left: 449px;
+  /* top: 0px; */
+  bottom: 240px;
+  font-size: 39px;
+  width: 450px;
+  height: 54px;
 }
 
 /* body {
@@ -82,7 +94,7 @@ right: 12px;
   margin-top: 50vh;
   border-radius: 45px;
   transform: translateY(-98%);
-  top: 90px;
+  top: 99px;
   position: relative;
   height: 341px;
 }
@@ -160,4 +172,40 @@ right: 12px;
 .formulaire .btn_sub:hover {
   background-color: #3498db;
   transition: .5s all;
+}
+
+.card {
+  background: #DEECF7;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  left: 175px;
+  width: 300px;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-2:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-3 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-3:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
