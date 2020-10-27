@@ -72,16 +72,28 @@ right: 12px;
   width: 450px;
   height: 54px;
 }
+
 .button5{
   position: relative;
-  left: 383px;
+  left: 471px;
   top: 70px;
   /* bottom: 13px; */
   font-size: 39px;
-  width: 614px;
-  height: 53px;
+  width: 428px;
+  height: 40px;
+  font-size: 26px;
 }
 
+.button6{
+  position: relative;
+  left: 57px;
+  /* top: 0px; */
+  bottom: 17px;
+  font-size: 39px;
+  width: 428px;
+  height: 40px;
+  font-size: 26px;
+}
 /* body {
   font-family: 'Open Sans', sans-serif;
   background-color: #ecf0f1;
@@ -295,13 +307,25 @@ video {
   color: #62D3A4;
 }
 .definition pre{
-
-
     font-size: 20px;
     position: relative;
     right: 53px;
-
 }
 .definition p{
       font-size: 24px;
+}
+
+.titre3 h2 {
+  color: #62D3A4;
+  text-align: center;
+  /* margin: auto; */
+  top: 164px;
+  left: 195px;
+  /* position: absolute; */
+  position: relative;
+  padding: 16px;
+  border: 54px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  font-size: 30px;
 }
