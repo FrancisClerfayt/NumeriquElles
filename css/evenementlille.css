@@ -49,9 +49,13 @@ button {
 
 .button1{
   left: 417px;
+    font-size: 19px;
 }
 .button2 {
 right: 12px;
+
+    font-size: 19px;
+
 }
 
 .button3{
