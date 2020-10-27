@@ -94,6 +94,7 @@ button {
   height: 40px;
   font-size: 26px;
 }
+
 .button7{
   position: relative;
   left: 325px;
@@ -359,4 +360,17 @@ video {
   width: 512px;
   top: 169px;
   position: relative;
+}
+
+.school{
+  position: relative;
+  width: 560px;
+  left: 419px;
+  top: 84px;
+}
+.school h2 {
+  color: #62D3A4;
+}
+.school p{
+  font-size: 25px;
 }
