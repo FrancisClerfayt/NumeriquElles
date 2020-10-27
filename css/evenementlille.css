@@ -54,6 +54,11 @@ button {
 right: 12px;
 }
 
+.button3{
+  position: absolute;
+  left: 247px;
+}
+
 /* body {
   font-family: 'Open Sans', sans-serif;
   background-color: #ecf0f1;
@@ -65,7 +70,7 @@ right: 12px;
 
 .formulaire {
   border-radius: 4px;
-  width: 436px;
+  width: 444px;
   background-color: #DEECF7;
   padding: 30px;
   padding-bottom: 30px;
@@ -77,6 +82,7 @@ right: 12px;
   transform: translateY(-98%);
   top: 90px;
   position: relative;
+  height: 341px;
 }
 
 .formulaire label {
