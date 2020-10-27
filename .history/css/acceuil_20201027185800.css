@@ -134,7 +134,7 @@ width: 100%;
     position: absolute;
     width: 150%;
     right: -59%;
-    top: 114%;
+    top: 120%;
     z-index: -2;
     opacity: .3;
 }
@@ -150,6 +150,9 @@ width: 100%;
     margin-top: 8em;  
     z-index: 2;  
 }
-.imgRightBottom1 {
-    margin-top:300% ;
+.imgCentreBottom {
+    transform: rotate(180deg);
+    margin-right: 5em;
+    z-index: -1;
+    margin-top: 0;
 }

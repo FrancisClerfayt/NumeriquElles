@@ -110,7 +110,7 @@ width: 100%;
 .imgLeftBottom,
 .imgLeftBottom1 {
     transform: rotate(90deg);
-    margin-left: -8em; 
+    margin-left: -58%; 
     padding-left: 0;
     margin-bottom: 36em;
     margin-top: 25em;
@@ -132,9 +132,9 @@ width: 100%;
 .imgRightLong {
     transform: rotate(-90deg);
     position: absolute;
-    width: 150%;
-    right: -59%;
-    top: 114%;
+    width: 130%;
+    right: -22em;
+    top: 22em;
     z-index: -2;
     opacity: .3;
 }
@@ -150,6 +150,9 @@ width: 100%;
     margin-top: 8em;  
     z-index: 2;  
 }
-.imgRightBottom1 {
-    margin-top:300% ;
+.imgCentreBottom {
+    transform: rotate(180deg);
+    margin-right: 5em;
+    z-index: -1;
+    margin-top: 0;
 }

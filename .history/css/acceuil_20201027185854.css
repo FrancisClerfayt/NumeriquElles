@@ -150,6 +150,9 @@ width: 100%;
     margin-top: 8em;  
     z-index: 2;  
 }
-.imgRightBottom1 {
-    margin-top:300% ;
+.imgCentreBottom {
+    transform: rotate(180deg);
+    margin-right: 5em;
+    z-index: -1;
+    margin-top: 0;
 }
