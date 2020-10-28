@@ -417,6 +417,15 @@ video {
   font-size: 24px;
 }
 
+.titre3 {
+  display: flex;
+  /* flex: auto; */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+}
+
 .titre3 h2 {
   color: #62D3A4;
   text-align: center;
@@ -424,7 +433,6 @@ video {
   top: 164px;
   /* left: 17px; */
   /* position: absolute; */
-  position: relative;
   padding: 16px;
   border: 54px;
   margin-left: auto;
