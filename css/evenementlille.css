@@ -331,6 +331,7 @@ margin-top: 12px;
   margin-top: 75px;
   flex-wrap: wrap;
 }
+
 video {
   /* position: absolute; */
   /* margin-left: auto; */
@@ -340,12 +341,19 @@ video {
   bottom: 137px;
 }
 
+.titre{
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+  flex-wrap: wrap;
+}
+
 .titre2 h2 {
   color: #62D3A4;
   text-align: center;
   /* margin: auto; */
   left: 557px;
-  position: absolute;
   padding: 16px;
   /* margin-left: auto; */
   /* margin-right: auto;*/
