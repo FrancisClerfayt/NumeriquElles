@@ -293,6 +293,10 @@ button {
   text-align: center;
 }
 
+.card p {
+  font-size: 12px;
+}
+
 .card2 {
   background: #DEECF7;
   border-radius: 36px;
