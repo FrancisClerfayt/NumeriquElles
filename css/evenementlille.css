@@ -73,9 +73,9 @@ button {
 }
 /*Bouton Validation*/
 .button3{
-margin: auto;
-float: right;
-margin-top: 12px;
+  margin: auto;
+  float: right;
+  margin-top: 12px;
 }
 
 
@@ -391,7 +391,7 @@ video {
   margin-top: 75px;
   flex-wrap: wrap;
   margin-left: auto;
-margin-right: auto;
+  margin-right: auto;
 }
 .definition h2 {
   color: #62D3A4;
