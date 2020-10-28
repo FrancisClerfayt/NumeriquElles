@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding:0
+    
+}
+
+body {
+    font-family:  Helvetica Neue ,Arial, Helvetica, sans-serif ;
+    text-align: left;
+}
+
+.pageAller {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.backgroudImg {
+    display: flex;
+    flex-direction: column;
+}
+.titreAndImg
