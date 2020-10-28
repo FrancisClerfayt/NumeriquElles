@@ -83,7 +83,8 @@ button {
 .button3{
   margin: auto;
   float: right;
-  margin-top: 12px;
+  font-size: 19px;
+  margin-top: 21px;
   border: #fffcfc;
 }
 
@@ -101,6 +102,7 @@ button {
   font-size: 39px;
   width: 450px;
   height: 54px;
+  border: #fffcfc;
 }
 .def{
   display: flex;
