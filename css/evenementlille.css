@@ -1,6 +1,7 @@
 body{
   margin: 0;
   padding: 0;
+
 }
 /*Link provisoir*/
 ul {
@@ -30,10 +31,18 @@ li a:hover {
   margin: auto;
   padding: 16px;
   flex: auto;
-
   display:auto;
 }
 
+/*Bouton Collège et lycée */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+/*Format du bouton*/
 button {
   display: inline-block;
   background-color: #62D3A4;
@@ -44,37 +53,42 @@ button {
   /* font-size: 4px; */
   /* padding: 3px; */
   width: 146px;
-  position: relative;
-  left: 646px;
+  /* position: relative; */
+  /* left: 646px; */
   /* transition: all 0.5s; */
   /* cursor: pointer; */
   margin: 5px;
   /* -webkit-mask-composite: destination-out;*/
 }
+
+/*Bouton Collége*/
 .button1{
   left: 417px;
   font-size: 19px;
-  flex: auto;
-  display:auto;
 }
+/*Bouton Lycée*/
 .button2 {
   right: 12px;
   font-size: 19px;
-  flex: auto;
-  display:auto;
 }
-
+/*Bouton Validation*/
 .button3{
-  position: absolute;
-  left: 247px;
-  top: 344px;
+margin: auto;
+float: right;
+margin-top: 12px;
 }
 
+
+/*position Bouton  */
+.room{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 57px;
+}
+/*Accès au salon virtuel*/
 .button4{
-  position: relative;
-  left: 449px;
   /* top: 0px; */
-  bottom: 240px;
   font-size: 39px;
   width: 450px;
   height: 54px;
@@ -113,13 +127,16 @@ button {
   font-size: 19px;
 }
 
-/* body {
-font-family: 'Open Sans', sans-serif;
-background-color: #ecf0f1;
-} */
 
 
-/*fORMULAIRE*/
+/*/*Partie fORMULAIRE*/
+.inscription{
+  display: flex;
+  /* flex: auto; */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 .formulaire h2{
   text-align: center;
   color: #702E92;
@@ -130,17 +147,18 @@ background-color: #ecf0f1;
   width: 444px;
   background-color: #DEECF7;
   padding: 30px;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   box-shadow: 0px 0px 25px rgba(0,0,0,0.25);
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50vh;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* margin-top: 50vh; */
   border-radius: 45px;
-  transform: translateY(-98%);
-  top: 99px;
+  /* transform: translateY(-98%); */
+  /* top: 99px; */
   /* position: relative; */
   height: 341px;
-
+  align-items: center;
+  display: auto;
 }
 
 .formulaire label {
@@ -217,13 +235,27 @@ background-color: #ecf0f1;
   background-color: #3498db;
   transition: .5s all;
 }
+
+
+/*/*Partie CARTE COLLÈGE*/
+
+/*Position card*/
+.college{
+  display: flex;
+  /* flex: auto; */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+  flex-wrap: wrap;
+}
+
 .card {
   background: #DEECF7;
   border-radius: 36px;
   display: inline-block;
   height: 227px;
   margin: 1rem;
-  position: relative;
   left: 80px;
   width: 359px;
   /* top: -12px; */
@@ -240,7 +272,6 @@ background-color: #ecf0f1;
   display: inline-block;
   height: 227px;
   margin: 1rem;
-  position: relative;
   left: 95px;
   width: 359px;
   /* top: -12px; */
@@ -255,7 +286,6 @@ background-color: #ecf0f1;
   display: inline-block;
   height: 227px;
   margin: 1rem;
-  position: relative;
   left: 122px;
   width: 359px;
   /* top: -12px; */
@@ -289,9 +319,10 @@ background-color: #ecf0f1;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+
+/*Partie Video*/
 video {
   /* position: absolute; */
-  position: relative;
   /* margin-left: auto; */
   /* margin-right: auto; */
   left: 536px;
