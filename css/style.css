@@ -318,6 +318,81 @@ section {
 	padding-top: 5%;
 }
 
+/* page contact */
+
+section{
+  background-color: aqua;
+  height: 500px;
+}
+
+section h1{
+  color: #62D3A4;
+  margin-top: 100px;
+  background-color: aquamarine;
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+}
+
+.logo_before{
+  width: 100%;
+  background-color: antiquewhite;
+  padding-top: 100px;
+
+}
+
+.logo_before img{
+  width: 50px;
+  margin-left: 48%;
+}
+
+.text p{
+  background-color: antiquewhite;
+  text-align: center;
+  font-size: 40px;
+}
+
+.phone{
+  background-color: beige;
+}
+
+.phone img{
+  background-color: aquamarine;
+  width: 70px;
+  margin-left: 48%;
+  margin-top: 12%;
+}
+
+.phone p{
+  background-color: aquamarine;
+  font-size: 40px;
+  width: 46%;
+  float: right;
+  margin-top: 50px;
+  margin-top: 13%;
+}
+
+.mail{
+  background-color: beige;
+  padding-bottom: 100px;
+}
+
+.mail img{
+  background-color: aquamarine;
+  width: 70px;
+  margin-left: 48%;
+  margin-top: 12%;
+}
+
+.mail p{
+  background-color: aquamarine;
+  font-size: 40px;
+  width: 46%;
+  float: right;
+  margin-top: 50px;
+  margin-top: 13%;
+}
+
 @media screen and (max-width: 600px) {
 	footer ul li{
 		display: flex;
