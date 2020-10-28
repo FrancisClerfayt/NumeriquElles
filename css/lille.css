@@ -32,6 +32,8 @@ li a:hover {
   padding: 16px;
   flex: auto;
   display:auto;
+  font-size: 30px;
+  margin: 25px;
 }
 
 /*Bouton Collège et lycée */
@@ -46,8 +48,8 @@ li a:hover {
 button {
   display: inline-block;
   background-color: #62D3A4;
-  border-radius: 10px;
-  border: 4px double #cccccc;
+  border-radius: 18px;
+  /* border: 4px double #cccccc; */
   color: #eeeeee;
   text-align: center;
   /* font-size: 4px; */
@@ -65,11 +67,19 @@ button {
 .button1{
   left: 417px;
   font-size: 19px;
+  border: #fffcfc;
+  margin-bottom: 34px;
 }
 /*Bouton Lycée*/
 .button2 {
   right: 12px;
   font-size: 19px;
+  right: 12px;
+  font-size: 19px;
+  margin-left: 197px;
+  margin-bottom: 34px;
+  border: #fffcfc;
+
 }
 /*Bouton Validation*/
 .button3{
@@ -562,12 +572,12 @@ video {
 
 .video_college{
 
-    display: flex;
-    /* flex: auto; */
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 75px;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  /* flex: auto; */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+  flex-wrap: wrap;
+}
 }
