@@ -206,7 +206,6 @@ background-color: #ecf0f1;
   background-color: #3498db;
   transition: .5s all;
 }
-
 .card {
   background: #DEECF7;
   border-radius: 36px;
@@ -214,37 +213,45 @@ background-color: #ecf0f1;
   height: 227px;
   margin: 1rem;
   position: relative;
-  left: 175px;
-  width: 316px;
+  left: 80px;
+  width: 359px;
   /* top: -12px; */
   bottom: 201px;
 }
-.card2 {
 
+.card h2{
+  text-align: center;
+}
+
+.card2 {
   background: #DEECF7;
   border-radius: 36px;
   display: inline-block;
   height: 227px;
   margin: 1rem;
   position: relative;
-  left: 175px;
-  width: 316px;
+  left: 95px;
+  width: 359px;
   /* top: -12px; */
   bottom: 219px;
 }
-
+.card2 h2{
+  text-align: center;
+}
 .card3 {
-
   background: #DEECF7;
   border-radius: 36px;
   display: inline-block;
   height: 227px;
   margin: 1rem;
   position: relative;
-  left: 175px;
-  width: 316px;
+  left: 122px;
+  width: 359px;
   /* top: -12px; */
   bottom: 219px;
+}
+.card3 h2{
+  text-align: center;
 }
 .card-1 {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -362,15 +369,101 @@ video {
   position: relative;
 }
 
-.school{
-  position: relative;
-  width: 560px;
-  left: 419px;
-  top: 84px;
-}
+
 .school h2 {
   color: #62D3A4;
+  position: relative;
+  top: 350;
+  top: 670px;
+  /* left: 45px; */
+  float: right;
+  left: 72px;
+  margin: auto;
 }
-.school p{
-  font-size: 25px;
+
+
+
+
+.card4 {
+  background: #DEECF7;
+  border-radius: 36px;
+  display: inline-block;
+  height: 227px;
+  margin: 1rem;
+  position: relative;
+  /* left: 80px; */
+  right: 90px;
+  width: 359px;
+  top: 718px;
+  /* bottom: 147px;*/
+}
+
+.card4 h2{
+  text-align: center;
+}
+
+.card5 {
+  background: #DEECF7;
+  border-radius: 36px;
+  display: inline-block;
+  height: 227px;
+  margin: 1rem;
+  position: relative;
+  left: 486px;
+  width: 359px;
+  top: 460px;
+  /* bottom: 219px;*/
+}
+.card5 h2{
+  text-align: center;
+}
+.card6 {
+  background: #DEECF7;
+  border-radius: 36px;
+  display: inline-block;
+  height: 227px;
+  /* margin: 1rem; */
+  position: relative;
+  left: 502px;
+  width: 359px;
+  top: 459px;
+  /* bottom: 219px;*/
+}
+.card6 h2{
+  text-align: center;
+}
+.card-4 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-4:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-5 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-5:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-6 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-6:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.videos{
+  /* position: absolute; */
+  position: relative;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* left: 536px; */
+  top: 645px;
+  position: relative;
+  /* bottom: 137px;*/
 }
