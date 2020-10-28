@@ -66,20 +66,19 @@ button {
 /*Bouton Collége*/
 .button1{
   left: 417px;
-  font-size: 19px;
+  font-size: 23px;
   border: #fffcfc;
   margin-bottom: 34px;
 }
 /*Bouton Lycée*/
 .button2 {
   right: 12px;
-  font-size: 19px;
+  font-size: 23px;
   right: 12px;
   font-size: 19px;
   margin-left: 197px;
   margin-bottom: 34px;
   border: #fffcfc;
-
 }
 /*Bouton Validation*/
 .button3{
