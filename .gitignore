@@ -1,2 +1,4 @@
 .history/
+.vs-code/
+.atom/
 *.pdf
