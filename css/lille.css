@@ -75,7 +75,6 @@ button {
   right: 12px;
   font-size: 23px;
   right: 12px;
-  font-size: 19px;
   margin-left: 197px;
   margin-bottom: 34px;
   border: #fffcfc;
@@ -85,6 +84,7 @@ button {
   margin: auto;
   float: right;
   margin-top: 12px;
+  border: #fffcfc;
 }
 
 
