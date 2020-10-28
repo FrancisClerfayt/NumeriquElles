@@ -29,6 +29,9 @@ li a:hover {
   text-align: center;
   margin: auto;
   padding: 16px;
+  flex: auto;
+
+  display:auto;
 }
 
 button {
@@ -51,10 +54,14 @@ button {
 .button1{
   left: 417px;
   font-size: 19px;
+  flex: auto;
+  display:auto;
 }
 .button2 {
   right: 12px;
   font-size: 19px;
+  flex: auto;
+  display:auto;
 }
 
 .button3{
@@ -110,6 +117,9 @@ button {
 font-family: 'Open Sans', sans-serif;
 background-color: #ecf0f1;
 } */
+
+
+/*fORMULAIRE*/
 .formulaire h2{
   text-align: center;
   color: #702E92;
@@ -128,8 +138,9 @@ background-color: #ecf0f1;
   border-radius: 45px;
   transform: translateY(-98%);
   top: 99px;
-  position: relative;
+  /* position: relative; */
   height: 341px;
+
 }
 
 .formulaire label {
