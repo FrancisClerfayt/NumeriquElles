@@ -348,6 +348,7 @@ video {
   align-items: center;
   margin-top: 95px;
   flex-wrap: wrap;
+  display: flex;
 }
 
 .titre2 h2 {
@@ -364,12 +365,12 @@ video {
 /*UPCYCLE COMMONS*/
 .up{
   width: 560px;
-  justify-content: center;
   /* align-items: center; */
   margin-left: auto;
   margin-right: auto;
   margin-top: 75px;
   flex-wrap: wrap;
+  display: flex;
 }
 .up h2 {
   color: #62D3A4;
@@ -382,10 +383,15 @@ video {
 /*DEFINITION*/
 
 .definition {
-  position: relative;
   width: 560px;
-  left: 419px;
-  top: 84px;
+  display: flex;
+  /* flex: auto; */
+  flex-direction: row;
+  align-items: center;
+  margin-top: 75px;
+  flex-wrap: wrap;
+  margin-left: auto;
+margin-right: auto;
 }
 .definition h2 {
   color: #62D3A4;
