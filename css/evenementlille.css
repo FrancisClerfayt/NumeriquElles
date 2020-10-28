@@ -341,7 +341,7 @@ video {
   bottom: 137px;
 }
 
-.titre{
+.titre2{
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -362,10 +362,13 @@ video {
 
 /*UPCYCLE COMMONS*/
 .up{
-  position: relative;
   width: 560px;
-  left: 419px;
-  top: 84px;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+  flex-wrap: wrap;
 }
 .up h2 {
   color: #62D3A4;
