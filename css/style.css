@@ -393,55 +393,66 @@ p {
 	z-index: 3;
 }
 
-/* page contact */
+/* body */
+.titleContact{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 5%;
+}
 
+.titleContact img{
+	width: 3%;
+}
 
-.text p{
-	background-color: antiquewhite;
-	text-align: center;
+.titleContact h1{
+	color: #62D3A4;
+	font-size: 50px;
+}
+
+.textContact{
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
+}
+
+.textContact p{
 	font-size: 40px;
 }
 
 .phone{
-	background-color: beige;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 5%;
 }
 
 .phone img{
-	background-color: aquamarine;
-	width: 70px;
-	margin-left: 48%;
-	margin-top: 12%;
+	width: 2%;
 }
 
 .phone p{
-	background-color: aquamarine;
-	font-size: 40px;
-	width: 46%;
-	float: right;
-	margin-top: 50px;
-	margin-top: 13%;
+	margin-top: 1%;
+	font-size: 50px;
 }
 
 .mail{
-	background-color: beige;
-	padding-bottom: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 .mail img{
-	background-color: aquamarine;
-	width: 70px;
-	margin-left: 48%;
-	margin-top: 12%;
+	width: 2%;
 }
 
 .mail p{
-	background-color: aquamarine;
-	font-size: 40px;
-	width: 46%;
-	float: right;
-	margin-top: 50px;
-	margin-top: 13%;
+	margin-top: 1%;
+	font-size: 50px;
 }
+
 @media screen and (max-width: 1119px) {
 	.green_button {
 		width: 60%;
