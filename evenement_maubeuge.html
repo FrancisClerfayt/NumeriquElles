@@ -2,14 +2,19 @@
 <html lang="fr" dir="ltr">
 <head>
 	<meta charset="utf-8">
-	<title>Evenement Lens</title>
-	<link rel="stylesheet" href="css/lens.css">
+	<title>Evenement Maubeuge</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" href="css/maubeuge.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header>
 		<div class="page_header">
 			<img class="left_bubbles" src="img/left_bubbles.svg" alt="">
-			<img class="logo_header" src="img/numeriqu_elles_logo_couleur.svg" alt="logo numériqu'elles">
+			<a class="link_home" href="index.html">
+				<img class="logo_home" src="img/numeriqu_elles_logo_couleur.svg" alt="logo des Numériqu'elles">
+			</a>
 			<img class="right_bubbles" src="img/right_bubbles.svg" alt="">
 		</div>
 		<nav>
@@ -53,20 +58,19 @@
 					</div>
 				</li>
 				<li class="navitem">
-					<a href="">Aller plus loin</a>
+					<a href="aller.html">Aller plus loin</a>
 				</li>
 				<li class="navitem">
-					<a href="">Préparation</a>
+					<a href="preparation.html">Préparation</a>
 				</li>
 				<li class="navitem">
-					<a href="">Contact</a>
+					<a href="contact.html">Contact</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
 	
 	<div class="title">
-		
 		<h2><b>Le 6 novembre</b></h2>
 		<h2>COLLÈGE Rendez-vous à partir de 9 heures</h2>
 	</div>
@@ -78,7 +82,6 @@
 	
 	
 	<div class="inscription">
-		
 		<div class="formulaire">
 			<h2>INSCRIPTION</h2>
 			<form action="#" method="post">
@@ -100,21 +103,19 @@
 					<input type="text" name="name" id="name" class="name" placeholder="Mots de passe">
 				</div>
 				
-				<INPUT type="checkbox" name="choix1" value="1" checked >
-					<label for="choix1">J'accepte les termes et conditions et la politique de confidentialité</label>
-					<button type="button" class="button3">VALIDER</button>
-					
-				</form>
-			</div>
-		</div>
-		
-		<div class="room">
-			<button type="button" name="button" class="button4">Accès au salon virtuel</button>
+				<input type="checkbox" name="choix1" id="choix1" value="1" checked>
+				<label for="choix1">J'accepte les termes et conditions et la politique de confidentialité</label>
+				<button type="button" class="button3">VALIDER</button>
+			</form>
 		</div>
 	</div>
 	
+	<div class="room">
+		<button type="button" name="button" class="button4">Accès au salon virtuel</button>
+	</div>
+	
 	<div class="video_college">
-		<video src="img/numerique." width="466" height="323" controls=""></video>
+		<video src="" width="466" height="323" controls=""></video>
 	</div>
 	
 	<div class="titre3">
@@ -134,10 +135,8 @@
 		<p>
 			<b>Bidouiller</b> : Réparer ou construire avec des moyens de fortune.
 			<br>
-			
 			<b>Upcycler</b> : Recycler en ajoutant de la valeur.
 			<br>
-			
 			<b>Bricoder</b> : Allier bricolage analogique et fabrique numérique.
 			<br>
 			<b>Hacker</b> : Détourner un objet, un service de son usage initial à des fins de recherche ou créatives.
@@ -160,6 +159,7 @@
 		<p>
 			Toute l’année, la vocation d’EuraTech’Kids est d’initier les enfants aux outils du numérique, de stimuler leur créativité et de les inciter à fabriquer de leurs mains des objets interactifs ! Ludiques, les ateliers EuraTech’Kids sont construits pour inciter les enfants à collaborer entre eux et à apprendre en s’amusant.
 		</p>
+		
 		<div class="euratech">
 			<button type="button" name="button" class="button6">Cliquez ici pour plus d’information.</button>
 		</div>
@@ -205,7 +205,8 @@
 	
 	<div class="up">
 		<h2>Upcycle Commons</h2>
-		<p>Upcycle Commons Qui peut le plus peut innover avec beaucoup moins… Upcycle Commons met la technologie et le numérique éducatif à la portée de tous.
+		<p>
+			Upcycle Commons Qui peut le plus peut innover avec beaucoup moins… Upcycle Commons met la technologie et le numérique éducatif à la portée de tous.
 		</p>
 	</div>
 	
@@ -213,11 +214,12 @@
 		<h2>Quelques définitions :</h2>
 		
 		<p>
-			<b>Bidouiller</b> : Réparer ou construire avec des moyens de fortune.<br>
-			
-			<b>Upcycler</b> : Recycler en ajoutant de la valeur.<br>
-			
-			<b>Bricoder</b> : Allier bricolage analogique et fabrique numérique.<br>
+			<b>Bidouiller</b> : Réparer ou construire avec des moyens de fortune.
+			<br>
+			<b>Upcycler</b> : Recycler en ajoutant de la valeur.
+			<br>
+			<b>Bricoder</b> : Allier bricolage analogique et fabrique numérique.
+			<br>
 			<b>Hacker</b> : Détourner un objet, un service de son usage initial à des fins de recherche ou créatives.
 		</p>
 		<p>
@@ -272,13 +274,20 @@
 	
 	<footer>
 		<ul>
-			<li><a href="#">Revue</a></li>
-			<li><a href="#">Actualités</a></li>
-			<li><a href="#">Communication</a></li>
+			<li>
+				<a href="">Revues de presses</a>
+			</li>
+			<li>
+				<a href="">Actualités</a>
+			</li>
+			<li>
+				<a href="">Communications</a>
+			</li>
+			<li class="mention">
+				<a href="">Mentions légales</a>
+			</li>
 		</ul>
-		<div class="mention">
-			<a href="#">Mentions légales</a>
-		</div>
 	</footer>
+	
 </body>
 </html>
