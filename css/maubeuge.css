@@ -119,6 +119,7 @@ button {
   width: 428px;
   height: 40px;
   font-size: 26px;
+  border: #fffcfc;
 }
 /*EuraTechnologie*/
 .euratech{
@@ -136,6 +137,7 @@ button {
   width: 428px;
   height: 40px;
   font-size: 26px;
+  border: #fffcfc;
 }
 .other{
   display: flex;
@@ -152,7 +154,23 @@ button {
   width: 376px;
   height: 40px;
   font-size: 19px;
+  border: #fffcfc;
 }
+
+.virtuel{
+  font-size: 39px;
+  width: 450px;
+  height: 54px;
+  border: #fffcfc;
+}
+
+.button8{
+  font-size: 39px;
+  width: 450px;
+  height: 54px;
+  border: #fffcfc;
+}
+
 
 
 
@@ -296,7 +314,6 @@ button {
 .card p {
   font-size: 12px;
   margin-left: 31px;
-
 }
 
 .card2 {
@@ -416,22 +433,19 @@ video {
 .up h2 {
   color: #62D3A4;
 }
-.up p{
-  font-size: 21px;
-
+.up pre{
+  font-size: 12px;
 }
 
 /*DEFINITION*/
 
-.definition {
-  width: 560px;
+.def {
   display: flex;
   /* flex: auto; */
   flex-direction: row;
   align-items: center;
   margin-top: 75px;
   flex-wrap: wrap;
-
 }
 .definition h2 {
   color: #62D3A4;
@@ -439,7 +453,6 @@ video {
 .definition pre{
   font-size: 20px;
   /* right: 53px; */
-
 }
 .definition p{
   font-size: 24px;
@@ -480,10 +493,12 @@ video {
 
 .left{
   padding: 12px;
+  font-size: 21px;
 }
 
 .right{
   padding: 12px;
+  font-size: 21px;
 }
 
 .school{
@@ -597,8 +612,7 @@ video {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.video_college{
-
+.video_college {
   display: flex;
   /* flex: auto; */
   flex-direction: row;
@@ -607,4 +621,9 @@ video {
   margin-top: 75px;
   flex-wrap: wrap;
 }
+.link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
