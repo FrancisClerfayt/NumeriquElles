@@ -442,6 +442,12 @@ p {
 	margin-top: 50px;
 	margin-top: 13%;
 }
+@media screen and (max-width: 1119px) {
+	.green_button {
+		width: 60%;
+	}
+
+}
 
 @media screen and (max-width: 610px) {
 	footer ul {
@@ -471,6 +477,15 @@ p {
 		margin: 1em auto;
 		font-size: 1em;
 	}
+	p {
+		font-size: 1em;
+		text-align: justify;
+		padding: .7em 3em;
+	}
+	.green_button {
+		width: 70%;
+	}
+
 }   
 
 
