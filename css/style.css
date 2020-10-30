@@ -17,12 +17,11 @@ footer a {
 	/* display: inline-block; */
 	padding: 8% 12%;
 	text-decoration: none;
+	transition: .3s;
 }
 
 footer a:hover {
-	background-color: #62D3A4;
-	border-radius: 15px;
-	color: #67328D;
+	color: #62D3A4; 
 }
 
 footer ul {
@@ -162,9 +161,7 @@ p {
 }
 
 .header_home {
-	background-image: url('../img/header_background.jpg');
-	background-repeat: no-repeat;
-	background-size: contain;
+	background: center / cover no-repeat url('../img/header_background.jpg');
 	height: 618px;
 }
 

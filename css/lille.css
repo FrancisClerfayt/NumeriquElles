@@ -121,7 +121,7 @@ button {
   border-radius: 13px 13px 13px 13px;
   box-shadow: 10px 5px 5px black;
   font-size: 20px;
-  width: 413px;
+  width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
 }
