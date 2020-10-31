@@ -384,8 +384,21 @@ input{
   align-items: center;
   margin-top: 15px;
 }
+.titre_college h2 {
+  color: #62D3A4;
+  text-align: center;
+  margin: auto;
+  top: 164px;
+  /* left: 17px; */
+  /* position: absolute; */
+  padding: 16px;
+  border: 54px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 71px;
+}
 
-.college_img {
+.titre_lycee{
   display: flex;
   /* flex: auto; */
   flex-direction: row;
@@ -411,7 +424,9 @@ input{
   font-size: 71px;
 }
 
-.titre_lycee{
+
+
+.titre3 {
   display: flex;
   /* flex: auto; */
   flex-direction: row;

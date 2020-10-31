@@ -1,0 +1,5 @@
+.history/
+.vs-code/
+.atom/
+*.pdf
+debug.log
