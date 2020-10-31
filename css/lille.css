@@ -24,6 +24,26 @@ li a {
 li a:hover {
   background-color: #111;
 }
+.title img{
+  width: 50px;
+}
+.titre2 img{
+  width: 50px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+  display: flex;
+  /* flex: auto; */
+  flex-direction: row;
+  align-items: center;
+  margin-top: 75px;
+  flex-wrap: wrap;
+}
+.logo img {
+
+}
 
 .title h2 {
   color: #62D3A4;
@@ -104,59 +124,8 @@ button {
   height: 54px;
   border: #fffcfc;
 }
-.def{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 57px;
-}
-/**/
-.button5{
-  left: 471px;
-  top: 70px;
-  /* bottom: 13px; */
-  font-size: 39px;
-  width: 428px;
-  height: 40px;
-  font-size: 26px;
-}
-/*EuraTechnologie*/
-.euratech{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-.button6{
-  left: 57px;
-  /* top: 0px; */
-  bottom: 17px;
-  font-size: 39px;
-  width: 428px;
-  height: 40px;
-  font-size: 26px;
-}
-.other{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-.button7{
-  left: 325px;
-  top: 425px;
-  /* bottom: -10px; */
-  font-size: 39px;
-  width: 376px;
-  height: 40px;
-  font-size: 19px;
-}
 
-
-
-/*/*Partie fORMULAIRE*/
+/*Partie fORMULAIRE*/
 .inscription{
   display: flex;
   /* flex: auto; */
@@ -262,6 +231,18 @@ button {
   background-color: #3498db;
   transition: .5s all;
 }
+
+input{
+  border: 0;
+  background-image: url('../img/round.png');
+  background-position: 9px 20px;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 14px;
+  background: #ebebeb;
+}
+
+
 
 
 /*/*Partie CARTE COLLÈGE*/
@@ -373,14 +354,6 @@ button {
   flex-wrap: wrap;
 }
 
-video {
-  /* position: absolute; */
-  /* margin-left: auto; */
-  /* margin-right: auto; */
-  left: 536px;
-  /* top: 3px; */
-  bottom: 137px;
-}
 
 /*Titre partie Atelier Partenaires*/
 .titre2{
@@ -403,58 +376,28 @@ video {
   font-size: 30px;
 }
 
-/*UPCYCLE COMMONS*/
-.up{
-  width: 560px;
-  /* align-items: center; */
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 75px;
-  flex-wrap: wrap;
-  display: flex;
-}
-.up h2 {
-  color: #62D3A4;
-}
-.up p{
-  font-size: 21px;
-
-}
-
-/*DEFINITION*/
-
-.definition {
-  width: 560px;
-  display: flex;
-  /* flex: auto; */
-  flex-direction: row;
-  align-items: center;
-  margin-top: 75px;
-  flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
-}
-.definition h2 {
-  color: #62D3A4;
-}
-.definition pre{
-  font-size: 20px;
-  right: 53px;
-}
-.definition p{
-  font-size: 24px;
-}
-
-.titre3 {
+.titre_college{
   display: flex;
   /* flex: auto; */
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 75px;
+  margin-top: 15px;
 }
 
-.titre3 h2 {
+.college_img {
+  display: flex;
+  /* flex: auto; */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.college_img img{
+  width: 250px;
+}
+.titre_college h2 {
   color: #62D3A4;
   text-align: center;
   margin: auto;
@@ -465,44 +408,58 @@ video {
   border: 54px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 30px;
+  font-size: 71px;
 }
 
-
-.center {
+.titre_lycee{
   display: flex;
   /* flex: auto; */
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* margin-top: 75px; */
+  margin-top: 15px;
 }
-
-.left{
-  padding: 12px;
-}
-
-.right{
-  padding: 12px;
-}
-
-.school{
-  display: flex;
-  /* flex: auto; */
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 75px;
-}
-.school h2 {
+.titre_lycee h2 {
   color: #62D3A4;
-  top: 350;
-  top: 670px;
-  /* left: 45px; */
-  float: right;
-  left: 72px;
+  text-align: center;
   margin: auto;
+  top: 164px;
+  /* left: 17px; */
+  /* position: absolute; */
+  padding: 16px;
+  border: 54px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 71px;
 }
+
+
+
+.titre3 {
+  display: flex;
+  /* flex: auto; */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.titre3 h2 {
+  color: #000000;
+  text-align: center;
+  margin: auto;
+  top: 164px;
+  /* left: 17px; */
+  /* position: absolute; */
+  padding: 16px;
+  border: 54px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  width: 702px;
+}
+
+
 
 
 .lycee{
@@ -597,14 +554,25 @@ video {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.video_college{
-
+.link{
   display: flex;
-  /* flex: auto; */
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
-  margin-top: 75px;
-  flex-wrap: wrap;
+  justify-content: center;
 }
+.virtuel {
+  background-color: #1c87c9;
+  border: none;
+  color: white;
+  padding: 14px 64px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* width: 50px;*/
 }
