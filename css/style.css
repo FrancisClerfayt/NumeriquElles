@@ -54,17 +54,22 @@ p {
 	width: 20%;
 }
 
-.banner_picture,
+.banner_picture img,
 .left_picture img,
 .right_picture img {
-	width: 100%;
+	width: 60%;
+	background-color: blue;
+}
+
+.left_picture img{
+	
 }
 
 .banner_picture img {
 	border-radius: 30px;
-	margin-left: 10%;
+	margin-left: 20%;
 	margin-top: 5%;
-	width: 80%;
+	
 }
 
 .bold {
@@ -376,6 +381,12 @@ p {
 	color: #62D3A4;
 	margin-bottom: 2.5em;
 	width:18em ;
+}
+
+.home_content p{
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 5%;
 }
 
 .text_container {
