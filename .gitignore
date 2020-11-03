@@ -1,5 +1,5 @@
 .history/
-.vs-code/
+.vscode/
 .atom/
 *.pdf
 debug.log
