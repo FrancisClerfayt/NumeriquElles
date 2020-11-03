@@ -68,8 +68,7 @@ nav {
 }
 
 .header_home {
-	/* background-color: rgba(0,0,0,0.25); */
-	background-image: url(../img/picture_header_one.jpg);
+	background-image: url('../img/picture_header_one.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
