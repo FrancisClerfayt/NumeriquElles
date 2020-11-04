@@ -278,9 +278,7 @@ a:hover{
   margin-top: 75px;
   flex-wrap: wrap;
 }
-.logo img {
 
-}
 
 .title h2 {
   color: #62D3A4;
@@ -405,7 +403,7 @@ button {
   border-radius: 13px 13px 13px 13px;
   box-shadow: 10px 5px 5px black;
   font-size: 20px;
-  width: 413px;
+  width: 378px;
   margin-bottom: 15px;
   margin-top: 5px;
 }
@@ -509,12 +507,15 @@ input{
 
 .card h2{
   text-align: center;
+  margin: 5px;
+  padding: 5px;
 }
 
 .card p {
   font-size: 12px;
   margin-left: 31px;
-
+  margin: 12px;
+  padding: 5px;
 }
 
 .card2 {
@@ -530,10 +531,15 @@ input{
 }
 .card2 h2{
   text-align: center;
+margin: 5px;
+padding: 5px;
 }
 .card2 p {
   font-size: 12px;
   margin-left: 31px;
+  margin: 12px;
+  padding: 5px;
+
 }
 .card3 {
   background: #DEECF7;
@@ -548,10 +554,15 @@ input{
 }
 .card3 h2{
   text-align: center;
+  margin: 5px;
+  padding: 2px;
 }
 .card3 p {
   font-size: 12px;
   margin-left: 31px;
+  margin: 12px;
+  padding: 5px;
+
 }
 .card-1 {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -739,10 +750,15 @@ input{
 
 .card4 h2{
   text-align: center;
+  margin: 5px;
+  padding: 2px;
 }
 .card4 p{
   font-size: 12px;
   margin-left: 31px;
+  margin: 12px;
+  padding: 5px;
+
 }
 
 .card5 {
@@ -758,10 +774,15 @@ input{
 }
 .card5 h2{
   text-align: center;
+margin: 5px;
+padding: 2px;
 }
 .card5 p{
-  font-size: 11px;
+  font-size: 12px;
   margin-left: 31px;
+  margin: 12px;
+  padding: 5px;
+
 }
 .card6 {
   background: #DEECF7;
@@ -776,10 +797,15 @@ input{
 }
 .card6 h2{
   text-align: center;
+margin: 5px;
+padding: 2px;
 }
 .card6 p{
   font-size: 12px;
   margin-left: 31px;
+  margin: 12px;
+  padding: 5px;
+
 }
 .card-4 {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -812,7 +838,8 @@ input{
   justify-content: center;
 }
 .virtuel {
-  background-color: #1c87c9;
+  background-color: #62d3a4;
+  border-radius: 45px;
   border: none;
   color: white;
   padding: 14px 64px;
@@ -821,7 +848,7 @@ input{
   margin-left: auto;
   margin-right: auto;
   font-size: 18px;
-  /* margin: 4px 2px; */
+  margin: 30px 2px;
   cursor: pointer;
   /* display: flex; */
   /* align-items: center; */
