@@ -2,22 +2,24 @@
 <html lang="fr" dir="ltr">
 <head>
 	<meta charset="utf-8">
-	<title>Evenement Maubeuge</title>
-	<link rel="stylesheet" href="css/maubeuge.css">
+	<title>Evenement Lille</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" href="css/lille.css">
+	<link rel="stylesheet" href="css/style.css">
+
 </head>
-<body>
-	<header>
-		<div class="page_header">
-			<img class="left_bubbles" src="img/left_bubbles.svg" alt="">
-			<img class="logo_header" src="img/numeriqu_elles_logo_couleur.svg" alt="logo numériqu'elles">
-			<img class="right_bubbles" src="img/right_bubbles.svg" alt="">
-		</div>
-		<nav>
-			<ul class="page_navbar">
+<body id="event_lille">
+	<header class="header_home" id="header_picture">
+		<nav class="nav_home">
+			<a class="link_home" href="index.html">
+				<img class="logo_home" src="img/numeriqu_elles_logo_couleur.svg" alt="logo des Numériqu'elles">
+			</a>
+			<ul class="navbar">
 				<li class="navitem">
 					<div class="dropdown">
 						<a href="">Numériqu'Elles</a>
-						<ul class="page_dropdown_content">
+						<ul class="dropdown_content">
 							<li>
 								<a href="evenement_boulogne.html">Boulogne</a>
 							</li>
@@ -34,37 +36,52 @@
 					</div>
 				</li>
 				<li class="navitem">
-					<div class="dropdown">
-						<a href="">Stages</a>
-						<ul class="page_dropdown_content">
-							<li>
-								<a class="nav_external_link" href="https://lenord.fr/jcms/prd1_667274/site-en-maintenance" target="_blank">Stage de 3e</a>
-							</li>
-							<li>
-								<a class="nav_external_link" href="https://www.monstageenligne.fr/" target="_blank">Mon stage en ligne</a>
-							</li>
-							<li>
-								<a class="nav_external_link" href="https://www.monstagedetroisieme.fr/" target="_blank">Mon stage de 3e.fr</a>
-							</li>
-							<li>
-								<a class="nav_external_link" href="https://stage3e.pasdecalais.fr/" target="_blank">Stage 3e Pas-de-Calais.fr</a>
-							</li>
-						</ul>
-					</div>
+					<a href="stages.html">Stages</a>
 				</li>
 				<li class="navitem">
-					<a href="">Aller plus loin</a>
+					<a href="aller.html">Aller plus loin</a>
 				</li>
 				<li class="navitem">
-					<a href="">Préparation</a>
-				</li>
-				<li class="navitem">
-					<a href="">Contact</a>
+					<a href="contact.html">Contact</a>
 				</li>
 			</ul>
 		</nav>
-	</header>
+		<div class="navbar_burger" role='navigation'>
+			<div id="menuToggle">
 
+				<input type="checkbox" />
+
+				<span></span>
+				<span></span>
+				<span></span>
+
+
+				<ul id="menu">
+					<div class="dropdown">
+						<a href=""><li>Numériqu'Elles</li></a>
+						<ul class="dropdown_content">
+							<li>
+								<a href="evenement_boulogne.html">Boulogne</a>
+							</li>
+							<li>
+								<a href="evenement_lens.html">Lens</a>
+							</li>
+							<li>
+								<a href="evenement_lille.html">Lille</a>
+							</li>
+							<li>
+								<a href="evenement_maubeuge.html">Maubeuge</a>
+							</li>
+						</ul>
+					</div>
+					<a href="stages.html"><li>Stages</li></a>
+					<a href="aller.html"><li>Aller plus loin</li></a>
+					<a href="contact.html"><li>Contact</li></a>
+				</ul>
+			</div>
+		</div>
+	</header>
+	
 	<div class="title">
 		<h2><b>Le 6 novembre</b></h2>
 		<h2>COLLÈGE Rendez-vous à partir de 9 heures</h2>
